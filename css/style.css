@@ -11,5 +11,14 @@ body{
     height: -webkit-fill-available;
     width: -webkit-fill-available;
     background-color: var(--bomi-yellow);
-    display: block;
+    display: flex;
+}
+
+.mainBoxParent{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
 }
