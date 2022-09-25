@@ -1,3 +1,15 @@
+:root {
+  --bomi-yellow: #FAC312;
+}
+
+body{
+  margin: 0px;
+}
+
 .indexPage{
-  background-color: yellow;
+    position: absolute;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    background-color: var(--bomi-yellow);
+    display: block;
 }
